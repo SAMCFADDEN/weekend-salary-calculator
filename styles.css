@@ -1,1 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+input {
+    flex: 1;
+    margin-right: 0.5em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid grey;
+    padding: 0.5em;
+    text-align: left;
+}
+
+.red-background {
+    background-color: red;
+}
 
